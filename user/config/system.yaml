@@ -152,6 +152,8 @@ assets:
   enable_asset_sri: false
   collections:
     jquery: 'system://assets/jquery/jquery-3.x.min.js'
+    theme:
+      - 'theme://css/custom.css'
 errors:
   display: 1
   log: true

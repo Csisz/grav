@@ -1,0 +1,20 @@
+enabled: true
+search_route: /search
+display_route: /search
+built_in_search_page: true
+
+# fontos: minden oldal indexelése
+filter:
+  items:
+    - '@root.descendants'
+
+# jobb találatok
+fuzzy: true
+distance: 2
+phrases: true
+min: 2
+limit: 20
+snippet: 300
+
+# STAMMER KIKAPCSOLÁSA
+stemmer: 'no'

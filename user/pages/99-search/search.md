@@ -1,0 +1,4 @@
+---
+title: Keresés
+template: search
+---
