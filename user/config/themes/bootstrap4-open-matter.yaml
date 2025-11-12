@@ -18,7 +18,7 @@ cc_license:
   type: ccby
   icon: false
   text: null
-theme_stylesheet: default
+theme_stylesheet: journal
 navbar_bg: bg-primary
 navbar_bg_color: null
 displaycustommenus:
@@ -32,3 +32,6 @@ custom_git_sync_repo_presentation_link_text: null
 git_sync:
   edit_theme_link_text: 'Site Theme Files'
 git_sync_repo_link: null
+# Bootstrap4 Open Matter - Custom layout
+display_sidebar: true
+sidebar_position: left
